@@ -24,13 +24,20 @@ Este é um projeto de terminal em C que simula um caixa eletrônico integrado a 
 
 ## 💻 Como rodar o projeto:
 
-1. Abra o terminal na pasta onde você salvou o arquivo do código.
-2. Compile o arquivo usando o GCC com o comando:
+### Opção 1: Pelo Terminal
+1. Abra o terminal (Prompt de Comando, PowerShell ou Terminal do VS Code) na pasta onde está o arquivo `banco_geraldo.c`.
+2. Compile o arquivo gerando o executável:
    ```bash
    gcc banco_geraldo.c -o banco
    ```
-3. Execute o programa no seu terminal:
+3. Execute o programa:
    ```bash
    ./banco
    ```
+
+### Opção 2: Pelo Visual Studio Code
+1. Certifique-se de ter a extensão **Code Runner** instalada no VS Code.
+2. Abra o arquivo `banco_geraldo.c`.
+3. Clique no botão de **Play** (Run Code) no canto superior direito da tela ou use o atalho `Ctrl + Alt + N`.
+
 *(Se estiver utilizando o Dev-C++, basta abrir o arquivo `banco_geraldo.c` e pressionar a tecla **F11** para compilar e rodar automaticamente).*
